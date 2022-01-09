@@ -1,0 +1,156 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+.top{
+    background-color: black;
+    width: 100%;
+    display:block;
+}
+.navi{
+    width: 500px;
+    height: 40px;
+    margin: auto;
+}
+
+.navi ul{
+    text-align: center;
+    margin: 0;
+}
+
+.navi ul li{
+    list-style: none;
+    color: white;
+    vertical-align: middle;
+    line-height: 40px;
+    float: left;
+    position: relative;
+}
+.navi ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 100px;
+    height: 100%;
+}
+
+.navi ul li a:hover{
+    background-color: orange;
+}
+.search { 
+    float: right;
+    margin: 10px;
+    position:relative;
+}
+
+.middle{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 0;
+    background-color: lightgray;
+    padding-top: 40px;
+    margin: 0;
+}
+
+.assignment1{
+    width : 30%;
+    height :300px;
+    border: 2px solid hotpink;
+    margin: auto;
+}
+
+.assignment1 .link{
+    width: 100%;
+    height: 100%;
+}
+
+.assignment2 {
+    width : 60%;
+    height :300px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 80px;
+}
+
+.img1 img {
+    border: 2px solid black;
+    border-radius: 10px;
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.right{
+    width: 300px;
+    height: 100px;  
+    float: right; 
+    text-align: center;
+}
+.textbox1{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+.textbox1 tr{
+    height: 50px;
+    vertical-align: bottom;
+}
+
+.t1 {
+    background-color: hotpink;
+    font-family: Arial;
+    text-align: left;
+    margin: 0px;
+    font-size: 12px;
+}
+
+.t2 {
+    background-color: pink;
+    font-family: Courier;
+    text-align: left;
+    font-size: 12px;
+}
+
+.t3 {
+    background-color: lightpink;
+    font-family: corsiva;
+    text-align: left;
+    font-size: 12px;
+}
+
+.another{
+    margin: auto;
+    color:white;
+    text-decoration: none;
+    background-color: orange;
+    border-radius: 10px;
+    padding: 10px 32px;
+    border: 0;
+    outline: 0;
+}
+
+.another:hover{
+    background-color: gray;
+}
+
+.bottom {
+    position:absolute;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    text-align: center;
+}
+
+.bottom p{
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 30px;
+    vertical-align: middle;
+    color: white;
+}
